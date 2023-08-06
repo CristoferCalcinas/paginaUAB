@@ -1,7 +1,7 @@
-
-
 export const Admisiones = () => {
   return (
-    <div>Admisiones</div>
-  )
-}
+    <div>
+      <h1>Admisiones</h1>
+    </div>
+  );
+};

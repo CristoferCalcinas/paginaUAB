@@ -1,3 +1,4 @@
+import { ButtonLogin } from "./ButtonLogin";
 import bgImage from "./LoginImg/bakz.gif";
 
 export const LoginPage = () => {
@@ -82,23 +83,8 @@ export const LoginPage = () => {
                       </button>
                     </div>
                   </form>
-                  <div className="relative my-4">
-                    <div className="absolute inset-0 flex items-center">
-                      <div className="w-full border-t border-gray-300"></div>
-                    </div>
-                    <div className="relative flex justify-center text-sm ">
-                      <span className="px-2 bg-white font-bold rounded">
-                        Soporte Tecnico:
-                      </span>
-                    </div>
-                  </div>
 
-                  {/* BOTON DE GOOGLE */}
-                  <div className="flex items-center justify-center">
-                    <span className="font-black text-md">
-                      eloyquispe@hotmail.com
-                    </span>
-                  </div>
+                  <ButtonLogin />
                 </div>
               </div>
             </div>
