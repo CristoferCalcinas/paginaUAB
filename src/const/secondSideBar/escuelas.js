@@ -1,0 +1,3 @@
+export const Escuelas = [
+    "Musica"
+]

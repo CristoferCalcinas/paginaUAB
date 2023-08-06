@@ -1,0 +1,16 @@
+export const Carreras = [
+    "ingenieria en sistemas",
+    "ingenieria en redes y telecomunicaciones",
+    "ingenieria ambiental",
+    "administracion y negocios internacionales",
+    "contaduria publica",
+    "ingenieria comercial",
+    "psicologia",
+    "psicopedagogia",
+    "actividad fisica y deportes",
+    "enfermeria",
+    "nutricion y dietetica",
+    "fisioterapia y kinesiologia",
+    "bioquimica",
+    "teologia",
+]
