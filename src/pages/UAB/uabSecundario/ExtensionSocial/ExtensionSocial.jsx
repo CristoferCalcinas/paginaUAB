@@ -1,6 +1,10 @@
+import { UabContennt } from "../../uabPrincipal/UabContennt";
+import { ExtensionSocialPage } from "./ExtensionSocialPage";
 
 export const ExtensionSocial = () => {
   return (
-    <div>ExtensionSocial</div>
-  )
-}
+    <UabContennt>
+      <ExtensionSocialPage></ExtensionSocialPage>
+    </UabContennt>
+  );
+};

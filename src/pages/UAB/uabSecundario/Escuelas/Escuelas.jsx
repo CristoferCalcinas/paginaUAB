@@ -1,7 +1,10 @@
-
+import { UabContennt } from "../../uabPrincipal/UabContennt";
+import { EscuelaPage } from "./EscuelaPage";
 
 export const Escuelas = () => {
   return (
-    <div>Escuelas</div>
-  )
-}
+    <UabContennt>
+      <EscuelaPage />
+    </UabContennt>
+  );
+};
