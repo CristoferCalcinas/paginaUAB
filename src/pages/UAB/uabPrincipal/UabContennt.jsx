@@ -3,8 +3,8 @@ import { SideBar } from "../../SideBar/SideBar";
 export const UabContennt = ({ children }) => {
   return (
     <div>
-      <div className="flex flex-row h-full w-screen bg-[#003b71] font-serif">
-        <div className="flex flex-col w-1/5 bg-[#003264] flex-grow">
+      <div className="flex flex-row h-full w-full bg-[#003b71] font-serif">
+        <div className="flex flex-col w-1/5 bg-[#003264] items-center">
           <SideBar />
         </div>
 
