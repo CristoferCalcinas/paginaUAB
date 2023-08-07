@@ -1,7 +1,11 @@
+import { UabContennt } from "../../uabPrincipal/UabContennt"
+import { ReglamentoItems } from "./ReglamentoItems"
 
 
 export const Reglamentos = () => {
   return (
-    <div>Reglamentos</div>
+    <UabContennt>
+      <ReglamentoItems />
+    </UabContennt>
   )
 }

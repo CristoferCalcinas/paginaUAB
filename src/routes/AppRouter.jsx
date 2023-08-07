@@ -8,6 +8,7 @@ import { Postgrado } from "../pages/UAB/uabSecundario/Postgrado/Postgrado";
 import { Investigacion } from "../pages/UAB/uabSecundario/Investigacion/Investigacion";
 import { Carreras } from "../pages/UAB/uabSecundario/Carreras/Carreras";
 import { Iglesia } from "../pages/UAB/uabSecundario/Iglesia/Iglesia";
+import { Reglamentos } from "../pages/UAB/uabSecundario/Reglamento/Reglamentos";
 
 export const AppRouter = () => {
   return (
@@ -22,6 +23,7 @@ export const AppRouter = () => {
       <Route path="/iglesia" element={<Iglesia />} />
       {/* <Route path="/colegio"  /> */}
       <Route path="admisiones" element={<Admisiones />} />
+      <Route path="reglamentos" element={<Reglamentos />} />
       <Route path="*" element={<UabMain />} />
     </Routes>
   );
