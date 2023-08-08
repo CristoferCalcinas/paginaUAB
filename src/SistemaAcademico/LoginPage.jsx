@@ -1,5 +1,5 @@
 import { ButtonLogin } from "./ButtonLogin";
-import bgImage from "./LoginImg/bakz.gif";
+import bgImage from "/LoginImg/bakz.gif";
 
 export const LoginPage = () => {
   return (
@@ -32,7 +32,7 @@ export const LoginPage = () => {
                           className="w-8 h-8 bg-center bg-no-repeat mr-2"
                           style={{
                             backgroundImage:
-                              "url('src/SistemaAcademico/LoginImg/anonimo.jpg')",
+                              "url('/LoginImg/anonimo.jpg')",
                           }}
                         />
                         <input
@@ -59,7 +59,7 @@ export const LoginPage = () => {
                           className="w-8 h-8  bg-center bg-no-repeat bg-contain bg-transparent mr-2"
                           style={{
                             backgroundImage:
-                              "url('src/SistemaAcademico/LoginImg/llave1.png')",
+                              "url('/LoginImg/llave1.png')",
                           }}
                         />
                         <input
