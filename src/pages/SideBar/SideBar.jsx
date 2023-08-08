@@ -6,7 +6,7 @@ export const SideBar = () => {
     <div className="px-4 py-6 fixed h-screen overflow-y-auto">
       <div className="flex justify-center items-center mb-4">
         <Link to={"/uab"} className="w-56">
-          <img src="src\images\MARCA-UAB-UAB.png" alt="" />
+          <img src="/imagesParaMain/MARCA-UAB-UAB.png" alt="" />
         </Link>
       </div>
 
