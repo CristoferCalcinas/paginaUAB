@@ -31,8 +31,7 @@ export const LoginPage = () => {
                         <div
                           className="w-8 h-8 bg-center bg-no-repeat mr-2"
                           style={{
-                            backgroundImage:
-                              "url('/LoginImg/anonimo.jpg')",
+                            backgroundImage: "url('LoginImg/anonimo.jpg')",
                           }}
                         />
                         <input
@@ -58,8 +57,7 @@ export const LoginPage = () => {
                         <div
                           className="w-8 h-8  bg-center bg-no-repeat bg-contain bg-transparent mr-2"
                           style={{
-                            backgroundImage:
-                              "url('/LoginImg/llave1.png')",
+                            backgroundImage: "url('LoginImg/llave1.png')",
                           }}
                         />
                         <input
