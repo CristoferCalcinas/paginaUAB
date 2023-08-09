@@ -52,7 +52,7 @@ export const TargetStats = () => {
               </dd>
             </div>
           </div>
-          <div className="bg-[#bbbbbb] w-2/5 flex flex-col mt-10 mb-10 justify-center p-10 text-sm text-white ml-auto mr-20">
+          <div className="bg-[#bbbbbb] lg:w-2/5 flex flex-col mt-10 lg:mb-10 lg:mr-20 justify-center p-10 text-sm text-white ml-auto ">
             <h3 className="my-5">En la UAB</h3>
             <p className="text-justify">
               entendemos que el desarrollo personal complementa el

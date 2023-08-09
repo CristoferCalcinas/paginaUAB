@@ -1,9 +1,9 @@
 export const TargetAuthForm = () => {
   return (
     <div className="mx-auto max-w-screen-xl p-5">
-      <section className="bg-white">
-        <div className="flex items-center justify-center space-x-10 bg-gradient-to-r from-cyan-500 via-green-500 to-blue-200">
-          <section className="relative flex h-32 w-2/3 items-end bg-gray-900 lg:h-full">
+      <section>
+        <div className="flex items-center justify-center space-x-5 bg-gradient-to-r from-cyan-500 via-green-500 to-blue-200 pr-5 lg:pr-0">
+          <section className="hidden relative lg:flex h-32 w-2/3 items-end bg-gray-900 lg:h-full">
             <img
               alt="Night"
               src="imagesParaMain/web3.jpg"
@@ -37,10 +37,10 @@ export const TargetAuthForm = () => {
             </div>
           </section>
 
-          <main className="flex items-center justify-center ">
-            <div className="">
+          <main className="flex lg:items-center lg:justify-center my-10">
+            <div className="border-2 border-black rounded p-5 ">
               <form action="#" className="flex flex-col space-y-10">
-                <div>
+                <div className="">
                   <div className="flex w-72 flex-col items-end gap-6">
                     <div className="relative h-10 w-full min-w-[200px]">
                       <input
