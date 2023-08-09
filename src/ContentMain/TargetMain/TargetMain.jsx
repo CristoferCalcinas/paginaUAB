@@ -8,21 +8,21 @@ export const TargetMain = () => {
             <img
               alt="gallery"
               className="w-full object-cover h-full object-center block"
-              src="/imagesParaMain/carreras.jpg"
+              src="imagesParaMain/carreras.jpg"
             />
           </div>
           <div className="md:p-2 p-1 w-1/2 bg-gradient-to-r from-transparent to-[#000284]">
             <img
               alt="gallery"
               className="w-full object-cover h-full object-center block"
-              src="/imagesParaMain/postgrado.jpg"
+              src="imagesParaMain/postgrado.jpg"
             />
           </div>
           <div className="md:p-2 p-1 w-full bg-gradient-to-r from-[#007f02] to-[#0c597c]">
             <img
               alt="gallery"
               className="w-full h-full object-cover object-center block"
-              src="/imagesParaMain/ventajas.jpg"
+              src="imagesParaMain/ventajas.jpg"
             />
           </div>
         </div>
@@ -39,14 +39,14 @@ export const TargetMain = () => {
             <img
               alt="gallery"
               className="w-full object-cover h-full object-center block"
-              src="/imagesParaMain/colegio.jpg"
+              src="imagesParaMain/colegio.jpg"
             />
           </div>
           <div className="md:p-2 p-1 w-1/2 bg-gradient-to-r from-transparent to-[#f2295b]">
             <img
               alt="gallery"
               className="w-full object-cover h-full object-center block"
-              src="/imagesParaMain/complementario.jpg"
+              src="imagesParaMain/complementario.jpg"
             />
           </div>
         </div>

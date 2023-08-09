@@ -6,7 +6,7 @@ export const TargetAuthForm = () => {
           <section className="relative flex h-32 w-2/3 items-end bg-gray-900 lg:h-full">
             <img
               alt="Night"
-              src="/imagesParaMain/web3.jpg"
+              src="imagesParaMain/web3.jpg"
               className="absolute inset-0 h-full w-full object-cover opacity-80"
             />
 

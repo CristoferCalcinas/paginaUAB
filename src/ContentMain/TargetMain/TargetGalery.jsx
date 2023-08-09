@@ -2,12 +2,12 @@ import { TargetGaleryImages } from "./TargetGaleryImages";
 
 export const TargetGalery = () => {
   const images = [
-    "/imagesParaMain/web-admi-300x235.jpg",
-    "/imagesParaMain/web-telecom-300x234.jpg",
-    "/imagesParaMain/web1.jpg",
-    "/imagesParaMain/web-psicopedagogia.jpg",
-    "/imagesParaMain/DSC_1712.jpg",
-    "/imagesParaMain/web-enfermeria.jpg",
+    "imagesParaMain/web-admi-300x235.jpg",
+    "imagesParaMain/web-telecom-300x234.jpg",
+    "imagesParaMain/web1.jpg",
+    "imagesParaMain/web-psicopedagogia.jpg",
+    "imagesParaMain/DSC_1712.jpg",
+    "imagesParaMain/web-enfermeria.jpg",
   ];
   return (
     <section className="text-gray-400 bg-[#052147] body-font">
