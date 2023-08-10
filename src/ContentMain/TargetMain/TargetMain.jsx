@@ -52,7 +52,7 @@ export const TargetMain = () => {
           <div className="md:p-2 p-1 w-1/2 bg-gradient-to-r from-transparent to-[#f2295b]">
             <img
               alt="gallery"
-              className="w-full object-cover h-full object-center block"
+              className="w-full object-cover h-full object-center block "
               src="imagesParaMain/complementario.jpg"
             />
           </div>
