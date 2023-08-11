@@ -1,4 +1,3 @@
-import React from "react";
 import { CarreraItem } from "./CarreraItem";
 import { Carreras } from "../const/carreras";
 

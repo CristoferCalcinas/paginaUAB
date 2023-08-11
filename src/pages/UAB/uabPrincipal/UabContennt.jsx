@@ -20,14 +20,11 @@ export const UabContennt = ({ children }) => {
           className="z-50 p-5 fixed right-0 top-10 bg-slate-600 lg:hidden"
           onClick={onClickSideBar}
         >
-          <div className={`hamburger ${sideBar ? "active" : ""}`}>
+          <div className={` ${sideBar ? "active" : ""}`}>
             <div className="h-0.5 w-6 bg-black dark:bg-white transition"></div>
             <div className="mt-2 h-0.5 w-6 bg-black dark:bg-white transition"></div>
           </div>
         </button>
-        <div className="">
-
-        </div>
 
 
         <div className="w-full lg:w-4/5 lg:h-full lg:flex lg:flex-col lg:overflow-y-auto">
