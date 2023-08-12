@@ -1,0 +1,3 @@
+export const objIngComercial = [
+    { id: 1, obj: "Formar ingenieros comerciales con excelencia académica, valores éticos, competitivos e innovadores, que proporcionen soluciones a los problemas de inherentes a la gestión comercial de las organizaciones empresariales con propuestas estratégicas sostenibles, con capacidad de adaptarse al cambio en los diferentes escenarios socioeconómicos locales, regionales, nacionales e internacionales." },
+];

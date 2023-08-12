@@ -1,17 +1,16 @@
-
-export const materiasAdmi = [
+export const materiasIngComercial = [
     {
         numSemestre: "Primer Semestre",
         materias: [
             "Administración I",
-            "Contabilidad I",
             "Economía Empresarial",
+            "Contabilidad I",
             "Derecho Empresarial",
             "Matemáticas I",
             "Taller de Expresión Oral y Escrita",
             "Metodología del Trabajo Científico",
-            "Introducción General a la Biblia"
-        ],
+            "Fundamentos del Cristianismo"
+        ]
     },
     {
         numSemestre: "Segundo Semestre",
@@ -24,72 +23,72 @@ export const materiasAdmi = [
             "Computación Aplicada",
             "Estadística I",
             "Liderazgo y Comunidad"
-        ],
+        ]
     },
     {
         numSemestre: "Tercer Semestre",
         materias: [
             "Gestión del Talento Humano",
-            "Comercio Internacional",
-            "Contabilidad III",
             "Microeconomía",
+            "Comercio Internacional",
+            "Creatividad e Innovación",
             "Derecho Laboral",
             "Inglés II",
             "Estadística II",
-            "Creencias Cristianas"
-        ],
+            "Antropología Cristiana"
+        ]
     },
     {
         numSemestre: "Cuarto Semestre",
         materias: [
-            "Técnicas y Herramientas de Comercio Exterior",
             "Marketing",
             "Desarrollo de Emprendedores",
-            "Contabilidad de Costos",
             "Macroeconomía",
+            "Contabilidad de Costos",
             "Inglés Empresarial",
             "Computación Empresarial",
+            "Econometría",
             "Vida Saludable"
-        ],
+        ]
     },
     {
         numSemestre: "Quinto Semestre",
         materias: [
-            "Administración Estratégica",
-            "Legislación del Comercio Internacional",
             "Marketing Internacional",
-            "Gestión de la Calidad",
-            "Transporte Internacional y Seguros",
+            "Ingeniería Económica",
+            "Imagen y Publicidad",
             "Comportamiento Organizacional",
             "Presupuestos",
+            "Gestión de la Calidad",
+            "Modelos y Simulaciones",
             "Fundamentos de la Familia y Sociedad"
-        ],
+        ]
     },
     {
         numSemestre: "Sexto Semestre",
         materias: [
-            "Gestión Empresarial",
-            "Gestión Aduanera",
-            "Investigación de Mercados Internacionales",
-            "Sistemas de Calidad Internacional",
+            "Marketing Estratégico",
+            "Neuromarketing y Marketing Lateral",
+            "Investigación de Mercados",
+            "Gerencia de Ventas",
+            "Comportamiento del Consumidor",
             "Finanzas I",
             "Análisis Para la Toma de Decisiones",
-            "Sistemas de Información Gerencial",
             "Ciencia y Biblia"
-        ],
+        ]
     },
     {
         numSemestre: "Séptimo Semestre",
         materias: [
-            "Gestión de Negocios Internacionales",
-            "Proyectos de Importación y Exportación",
-            "Administración Pública",
+            "Marketing Digital",
+            "Sistemas y Canales de Distribución",
             "Preparación y Evaluación de Proyectos",
             "Finanzas II",
+            "Finanzas Internacionales",
             "Práctica Empresarial I",
             "Metodología de la Investigación",
             "Perspectiva Bíblica de la Historia"
-        ],
+        ]
     },
     {
         numSemestre: "Octavo Semestre",
@@ -97,6 +96,6 @@ export const materiasAdmi = [
             "Práctica Empresarial II",
             "Taller de Grado",
             "Orientación para el Desempeño Profesional"
-        ],
+        ]
     },
 ];

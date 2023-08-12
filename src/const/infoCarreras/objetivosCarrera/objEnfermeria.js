@@ -1,0 +1,3 @@
+export const objEnfermeria = [
+    { id: 1, obj: "Formar profesionales de enfermería competentes, que sean creativos y emprendedores con bases científicas, humanísticas, metodológicas y tecnológicas, que desarrollen funciones de atención, investigación, educación y gestión con vocación de servicio con un alto compromiso social, ético y de servicio que le permita proveer cuidados de enfermería seguro y de calidad, a las personas, familia y comunidad." }
+];

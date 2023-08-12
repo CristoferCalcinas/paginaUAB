@@ -1,8 +1,14 @@
 import { GroupElementsCountent } from "./GroupElementsCountent";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 
-export const GruopElements = ({ title, content, path, selected }) => {
-  
+export const GruopElements = ({
+  title,
+  content,
+  path,
+  selected,
+  contentElements,
+}) => {
+  // console.log(contentElements)
   return (
     <li>
       <details className="group [&_summary::-webkit-details-marker]:hidden">
@@ -28,7 +34,14 @@ export const GruopElements = ({ title, content, path, selected }) => {
 
         <ul className="mt-2 space-y-1 px-4">
           {content.map((item) => {
-            return <GroupElementsCountent title={item} key={item} selected={selected}/>;
+            return (
+              <GroupElementsCountent
+                title={item}
+                key={item}
+                selected={selected}
+                contentElements={contentElements}
+              />
+            );
           })}
         </ul>
       </details>

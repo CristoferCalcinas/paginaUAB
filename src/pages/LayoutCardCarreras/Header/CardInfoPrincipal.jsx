@@ -1,4 +1,5 @@
-export const CardInfoPrincipal = () => {
+export const CardInfoPrincipal = ({ cardContent }) => {
+  const { duracion, grado, ingreso, modalidad } = cardContent;
   return (
     <div className="">
       <div className="border border-black min-w-max">
@@ -9,10 +10,10 @@ export const CardInfoPrincipal = () => {
         </div>
         <div className="flex flex-col items-center justify-center my-10">
           <ul className="space-y-5">
-            <li className="border-b-2">Grado Obtenido Licenciatura</li>
-            <li className="border-b-2"> Modalidad Presencial</li>
-            <li className="border-b-2">Duración 4 años (8 semestres)</li>
-            <li className="border-b-2"> Ingreso Sin exámenes</li>
+            <li className="border-b-2">{grado}</li>
+            <li className="border-b-2">{modalidad}</li>
+            <li className="border-b-2">{duracion}</li>
+            <li className="border-b-2">{ingreso}</li>
           </ul>
           <div className="bg-[#6EC1E4] p-2 mt-5">
             <button className="text-white font-bold">Contáctanos</button>

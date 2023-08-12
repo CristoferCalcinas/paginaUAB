@@ -1,0 +1,4 @@
+export const objPsicopedagogia = [
+    { id: 1, obj: "Consolidar profesionales con capacidades y habilidades para la detección diagnóstica e intervención, dentro de la dinámica del aprendizaje del ser humano, dentro el marco de la acción psicopedagógica, de acuerdo con el desarrollo de la ciencia y tecnología, fundamentados en la cosmovisión bíblica, para ofrecer un servicio de calidad a Dios y a la sociedad." },
+    { id: 2, obj: "Formar un profesional psicopedagogo con las competencias, conocimientos, habilidades y actitudes que le permiten investigar la complejidad biopsicosocial de la educación y derechos del ser humano, respondiendo proactivamente a las necesidades de la problemática educativa." },
+];

@@ -6,7 +6,6 @@ export const UabContennt = ({ children }) => {
   const onClickSideBar = () => {
     setSideBar(!sideBar);
   };
-  console.log(sideBar)
   return (
     <div>
       {/* Use el w-full para que se quitara el scrol horizontal */}

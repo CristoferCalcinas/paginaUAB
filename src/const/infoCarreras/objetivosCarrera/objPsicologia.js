@@ -1,0 +1,3 @@
+export const objPsicologia = [
+    { id: 1, obj: 'Formar profesionales de la psicología con una sólida  preparación en una gama amplia de orientaciones teóricas y con  una serie de programas de profundización terminales que adopten una visión integral en cuanto al estudio de los procesos psicológicos, basada saberes conceptuales, procedimentales y actitudinales, que les permitan abordar el estudio de la dimensión psicológica, desde un marco ético, del ser humano, a nivel individual, grupal y/o social.' },
+];
