@@ -9,8 +9,7 @@ const normalize = (str) => {
     .toLowerCase();
 };
 
-export const CarrerasRoutes = ({infoCarreras}) => {
-
+export const CarrerasRoutes = ({ infoCarreras }) => {
   return (
     <Routes>
       {infoCarreras.map((carrera) => {
@@ -18,8 +17,11 @@ export const CarrerasRoutes = ({infoCarreras}) => {
         const newPathCarreras = `/carreras/${normalize(title)}`;
         console.log(newPathCarreras);
         return (
-          <Route key={carrera.id} path={newPathCarreras}
-          element={<CarrerasPrincipal carrera={carrera}/>} />
+          <Route
+            key={carrera.id}
+            path={newPathCarreras}
+            element={<CarrerasPrincipal carrera={carrera} />}
+          />
         );
       })}
     </Routes>

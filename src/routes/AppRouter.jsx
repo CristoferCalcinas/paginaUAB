@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import { LoginPage } from "../SistemaAcademico/LoginPage";
 import { UabMain } from "../pages/UAB/uabPrincipal/UabMain";
 import { Ventajas } from "../pages/UAB/uabSecundario/Ventajas/Ventajas";
@@ -18,7 +18,7 @@ export const AppRouter = () => {
     <Routes>
       <Route path="/uab" element={<UabMain />} />
       <Route path="/ventajas" element={<Ventajas />} />
-      <Route path="/carreras" element={<Carreras />} />
+      <Route path="/carreras" element={<Carreras />}/>
       <Route path="/investigacion" element={<Investigacion />} />
       <Route path="/postgrado" element={<Postgrado />} />
       <Route path="/complementario" element={<Complementario />} />
@@ -27,13 +27,12 @@ export const AppRouter = () => {
       <Route path="/extensionSocial" element={<ExtensionSocial />} />
       <Route path="/escuelas" element={<Escuelas />} />
       <Route path="/login" element={<LoginPage />} />
-      <Route path="/*" element={<UabMain />} />
-      {/* <Route
-        path="/carreras/:"
-        element={
-            <CarrerasRoutes infoCarreras={infoCarreras} /> 
-        }
-      /> */}
+      <Route path="/*" element={<Navigate to="/uab" />} />
+
+      <Route
+        path="/carreras/*"
+        element={<CarrerasRoutes infoCarreras={infoCarreras} />}
+      />
     </Routes>
   );
 };
