@@ -4,7 +4,6 @@ export const materiasContaduria = [
         materias: [
             "Administración I",
             "Contabilidad I",
-            "Administración I",
             "Economía Empresarial",
             "Derecho Empresarial",
             "Matemáticas I",

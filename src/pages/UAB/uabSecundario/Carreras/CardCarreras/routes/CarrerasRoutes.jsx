@@ -15,7 +15,7 @@ export const CarrerasRoutes = ({ infoCarreras }) => {
       {infoCarreras.map((carrera) => {
         const { title } = carrera.head;
         const newPathCarreras = `/carreras/${normalize(title)}`;
-        console.log(newPathCarreras);
+        // console.log(newPathCarreras);
         return (
           <Route
             key={carrera.id}

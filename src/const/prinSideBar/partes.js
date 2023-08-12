@@ -11,7 +11,7 @@ export const Elements = [
   { id: 7, title: "colegio", content: null, path: "https://ueab.educacionadventista.com/", selected: false, contentElements: null },
   { id: 8, title: "admisiones", content: null, path: "/admisiones", selected: false, contentElements: null },
   { id: 9, title: "reglamentos uab", content: null, path: "/reglamentos", selected: false, contentElements: null },
-  { id: 10, idtitle: "extensión social", content: ExtensionSocial, path: "/extensionSocial", selected: false, contentElements: null },
+  { id: 10, title: "extensión social", content: ExtensionSocial, path: "/extensionSocial", selected: false, contentElements: null },
   { id: 11, title: "iglesia", content: null, path: "https://sva.adventistas.org/es/", selected: false, contentElements: null },
   { id: 12, title: "escuelas", content: Escuelas, path: "/escuelas", selected: false, contentElements: null },
   { id: 13, title: "crai", content: null, path: "https://crai.uab.edu.bo/", selected: false, contentElements: null },

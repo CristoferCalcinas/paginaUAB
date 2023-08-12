@@ -6,7 +6,7 @@ export const TargetMain = () => {
           <div className="md:p-2 p-1 w-1/2 bg-gradient-to-r from-transparent to-[#f2295b]">
             <img
               alt="gallery"
-              className="w-full object-cover h-full object-center block"
+              className="w-full object-cover h-full object-center block opacity-50 hover:opacity-10"
               src="imagesParaMain/carreras.jpg"
             />
           </div>
@@ -14,14 +14,14 @@ export const TargetMain = () => {
           <div className="md:p-2 p-1 w-1/2 bg-gradient-to-r from-transparent to-[#000284]">
             <img
               alt="gallery"
-              className="w-full object-cover h-full object-center block"
+              className="w-full object-cover h-full object-center block opacity-50 hover:opacity-10"
               src="imagesParaMain/postgrado.jpg"
             />
           </div>
           <div className="md:p-2 p-1 w-full bg-gradient-to-r from-[#007f02] to-[#0c597c]">
             <img
               alt="gallery"
-              className="w-full h-full object-cover object-center block"
+              className="w-full h-full object-cover object-center block opacity-50 hover:opacity-10"
               src="imagesParaMain/ventajas.jpg"
             />
           </div>
@@ -40,14 +40,14 @@ export const TargetMain = () => {
           <div className="md:p-2 p-1 w-1/2 bg-gradient-to-r from-[#840037] to-[#00748e]">
             <img
               alt="gallery"
-              className="w-full object-cover h-full object-center block"
+              className="w-full object-cover h-full object-center block opacity-50 hover:opacity-10"
               src="imagesParaMain/colegio.jpg"
             />
           </div>
           <div className="md:p-2 p-1 w-1/2 bg-gradient-to-r from-transparent to-[#f2295b]">
             <img
               alt="gallery"
-              className="w-full object-cover h-full object-center block "
+              className="w-full object-cover h-full object-center block opacity-50 hover:opacity-10"
               src="imagesParaMain/complementario.jpg"
             />
           </div>

@@ -1,8 +1,20 @@
+import { Link } from "react-router-dom";
+
+const normalize = (str) => {
+  return str
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-zA-Z0-9 ]/g, "")
+    .replace(/\s+/g, "-")
+    .toLowerCase();
+};
 export const TargetElement = ({ titulo }) => {
+  const path = `/carreras/${normalize(titulo)}`;
+
   return (
-    <a
+    <Link
+      to={path}
       className="rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-white flex flex-wrap justify-center items-center"
-      href="/services/digital-campaigns"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -24,6 +36,6 @@ export const TargetElement = ({ titulo }) => {
       <h2 className="mt-4 font-bold text-white uppercase text-center">
         {titulo}
       </h2>
-    </a>
+    </Link>
   );
 };

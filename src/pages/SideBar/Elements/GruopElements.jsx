@@ -1,5 +1,5 @@
 import { GroupElementsCountent } from "./GroupElementsCountent";
-import { Link, Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const GruopElements = ({
   title,
@@ -8,7 +8,6 @@ export const GruopElements = ({
   selected,
   contentElements,
 }) => {
-  // console.log(contentElements)
   return (
     <li>
       <details className="group [&_summary::-webkit-details-marker]:hidden">
@@ -37,6 +36,7 @@ export const GruopElements = ({
             return (
               <GroupElementsCountent
                 title={item}
+                pertenece_a={title}
                 key={item}
                 selected={selected}
                 contentElements={contentElements}
